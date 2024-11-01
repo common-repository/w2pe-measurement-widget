@@ -1,0 +1,73 @@
+.w2pe_measure a{outline:none !important}
+.w2pe_measure-main{
+	float:left;
+	width:72%;
+}
+.w2pe_measure-info{
+	float:right;
+	width:25%;
+}
+.w2pe_measure fieldset{
+	border:#999 solid 1px;
+	width:98%;
+	margin:10px 0;
+}
+.w2pe_measure fieldset legend{margin-left:50px;font-weight:bold;font-size:14px}
+.w2pe_measure .error{color:#F00;}
+.w2pe_measure tr td{padding:5px 0}
+
+/*.w2pe_measure input[type="text"]{*/
+.w2pe_measure input[type="text"]{
+	width:300px;
+    padding: 5px;
+}
+.w2pe_measure textarea{
+	width:300px;
+    padding: 5px;
+}
+.w2pe_measure select{
+	width:300px;
+    padding: 1px 5px;
+}
+
+/*.w2pe_measure input[type="submit"] , input[type="button"]{
+	background:#464646;
+    color: #FFFFFF;
+    padding: 3px 10px;
+	cursor:pointer;
+}*/
+input[type="button"]{
+	background:#464646;
+    color: #FFFFFF;
+    padding: 3px 10px;
+	cursor:pointer;
+}
+.w2pe_measure input[type="submit"]:hover{
+	background:#231F20;
+}
+.w2pe_measure #msg{
+	margin:5px 0 15px;
+	width:96%;
+}
+.w2pe_measure .detail{
+	display:none
+}
+.w2pe_measure .event-image{
+	height:100px;
+	width:150px;
+	border:solid #000 2px;
+	vertical-align:middle;
+	margin-left:20px;
+}
+.w2pe_measure a .dashicons{
+	color:#000;
+	text-decoration:none;
+}
+.w2pe_measure .prepand{
+	float:left;
+	padding:0 20px;
+}
+
+.w2pe-measure-table tr:nth-child(2n+1) {
+  background: #D5D5D5;
+}

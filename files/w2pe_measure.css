@@ -1,0 +1,17 @@
+#w2p-measurement select{
+	width:100%
+}
+#w2p-measurement input {
+  width: 100%;
+}
+#w2p-measurement label {
+  width: 100%;
+  float:left;
+}
+
+#w2p-measurement #loader {
+  bottom: 118px;
+  display: none;
+  left: 90px;
+  position: relative;
+}
